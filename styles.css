@@ -1,0 +1,78 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+    background-color: #f4f4f4;
+    /* Light background color */
+    text-align: center;
+    /* Center-align text */
+    padding: 20px;
+    /* Add some padding */
+}
+
+/* Style for the h1 headline */
+h1 {
+    color: #ff4500;
+    /* Bright orange color */
+    font-size: 48px;
+    /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+    margin-bottom: 20px;
+    /* Add space below the headline */
+    font-weight: bold;
+    /* Make the text bold */
+    letter-spacing: 1px;
+    /* Add space between letters */
+}
+
+/* Style for the button */
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button.disabled {
+    background-color: #ccc; /* Grey color */
+    cursor: not-allowed; /* Change cursor to indicate it's not clickable */
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the textarea */
+textarea {
+    width: 300px;
+    /* Width of the textarea */
+    height: auto;
+    /* Height will be controlled by JavaScript */
+    max-height: 200px;
+    /* Maximum height to allow for 10 lines */
+    padding: 10px;
+    /* Padding inside the textarea */
+    font-size: 14px;
+    /* Font size */
+    border: 2px solid #ccc;
+    /* Border styling */
+    border-radius: 4px;
+    /* Rounded corners */
+    margin-top: 10px;
+    /* Space above the textarea */
+    resize: none;
+    /* Disable manual resizing */
+    overflow-y: hidden;
+    /* Hide vertical scrollbar initially */
+}

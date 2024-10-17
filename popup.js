@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     link: activeTab.url
                 };
 
-                fetch('https://f46a-34-106-5-97.ngrok-free.app/test/', {
+                fetch('https://7e9b-34-125-54-3.ngrok-free.app/test', {
                     method: 'POST',
                     timeout: 120000,
                     headers: {
